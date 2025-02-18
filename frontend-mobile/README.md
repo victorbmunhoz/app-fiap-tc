@@ -16,19 +16,6 @@ Axios para integração com o backend
 
 Context API para gerenciamento de autenticação
 
-Estrutura do Projeto
-
-frontend-mobile/
-│── src/
-│   ├── contexts/      # Contexto de autenticação
-│   ├── screens/       # Telas do aplicativo
-│   ├── services/      # Serviços de API
-│   ├── navigation/    # Configuração da navegação
-│── assets/            # Imagens e recursos visuais
-│── App.js             # Componente principal
-│── package.json       # Dependências e configurações do projeto
-│── README.md          # Documentação do projeto
-
 Instalação e Configuração
 
 Requisitos
