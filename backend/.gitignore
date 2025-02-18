@@ -1,0 +1,28 @@
+# Node.js
+node_modules/
+package-lock.json
+
+# Banco de dados
+database.sqlite
+database.sqlite-journal
+
+# Ambientes de desenvolvimento
+.env
+.env.test
+
+# Logs e depuração
+logs/
+*.log
+debug.log
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Diretórios de build
+dist/
+coverage/
+
+# Dependências locais do editor
+.vscode/
+.idea/
+*.swp
