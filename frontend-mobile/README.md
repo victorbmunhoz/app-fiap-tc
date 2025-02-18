@@ -4,7 +4,7 @@ Descrição do Projeto
 
 Este é o frontend mobile do projeto Tech Challenge FIAP, desenvolvido utilizando React Native com Expo. O aplicativo permite que estudantes, professores e administradores gerenciem e visualizem posts, garantindo autenticação segura via JWT e armazenamento seguro do token.
 
-Tecnologias Utilizadas:
+📌 Tecnologias Utilizadas
 
 React Native com Expo
 
@@ -16,9 +16,9 @@ Axios para integração com o backend
 
 Context API para gerenciamento de autenticação
 
-Instalação e Configuração
+🔧 Instalação e Configuração
 
-Requisitos
+Requisitos:
 
 Node.js instalado (versão recomendada: LTS)
 
@@ -28,16 +28,16 @@ npm install -g expo-cli
 
 Backend rodando localmente ou em servidor remoto
 
-Clonar o repositório
+1️⃣ Clonar o repositório
 
 git clone https://github.com/victorbmunhoz/app-fiap-tc.git
 cd frontend-mobile
 
-Instalar dependências
+2️⃣ Instalar dependências
 
 npm install
 
-Configuração do ambiente
+3️⃣ Configuração do ambiente
 
 Criar um arquivo .env na raiz do projeto com:
 
@@ -45,7 +45,7 @@ API_BASE_URL=http://SEU_BACKEND_IP:3000
 
 No emulador Android, use http://10.0.2.2:3000 em vez de localhost
 
-Executando o Projeto
+🚀 Executando o Projeto
 
 npx expo start
 
@@ -57,7 +57,7 @@ a para Android (emulador/dispositivo)
 
 i para iOS (apenas Mac)
 
-Autenticação
+🔧 Autenticação
 
 O sistema suporta três tipos de usuários:
 
@@ -69,7 +69,7 @@ Administrador: gerencia posts e usuários
 
 O login é realizado via JWT e armazenado de forma segura no dispositivo.
 
-Funcionalidades Principais
+🔧 Funcionalidades Principais
 
 Login e Logout seguro
 
