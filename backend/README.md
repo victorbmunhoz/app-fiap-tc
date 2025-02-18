@@ -7,8 +7,6 @@ Este é o backend do projeto Tech Challenge, uma API desenvolvida utilizando Fas
 - **Sequelize** - ORM para banco de dados
 - **SQLite** - Banco de dados leve para desenvolvimento
 - **JWT (JSON Web Token)** - Autenticação e controle de acesso
-- **Pino** - Logger otimizado para Fastify
-- **Jest + Supertest** - Testes automatizados de API
 - **Swagger** - Documentação interativa da API
 
 🔧 Instalação e Configuração
