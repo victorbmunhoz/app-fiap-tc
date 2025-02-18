@@ -40,7 +40,6 @@ backend/
 │   ├── middleware/        # Middlewares de autenticação e permissões
 │   ├── models/            # Modelos do banco de dados
 │   ├── routes/            # Rotas da API
-│   ├── tests/             # Testes automatizados
 │   ├── app.js             # Configuração principal do Fastify
 │   ├── server.js          # Inicialização do servidor
 ├── .env                   # Variáveis de ambiente
@@ -52,31 +51,6 @@ backend/
 Para rodar o backend em ambiente de desenvolvimento, execute:
 
 npm run dev
-
-🧪 Testes Automatizados
-Os testes são escritos utilizando Jest e Supertest. Para rodar todos os testes, execute:
-
-npm test
-
-📡 API - Endpoints Principais
-🔹 Autenticação
-**POST /auth/login** - Login de professores e estudantes
-**POST /auth/student-login** - Login de estudantes
-🔹 Professores
-**POST /teachers** - Criar professor (apenas admins)
-**GET /teachers** - Listar professores
-**PUT /teachers/:id** - Editar professor
-**DELETE /teachers/:id** - Remover professor
-🔹 Estudantes
-**POST /students** - Criar estudante (apenas admins)
-**GET /students** - Listar estudantes
-**PUT /students/:id** - Editar estudante
-**DELETE /students/:id** - Remover estudante
-🔹 Posts
-**POST /posts** - Criar post (apenas professores)
-**GET /posts** - Listar posts
-**PUT /posts/:id** - Editar post (somente autor)
-**DELETE /posts/:id** - Remover post (somente autor)
 
 📜 Documentação com Swagger
 O Swagger foi configurado para fornecer uma documentação interativa da API.
